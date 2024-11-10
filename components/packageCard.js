@@ -5,7 +5,7 @@ const PackageCard = ({ id, name, location, descip, price }) => {
   // Function to handle the booking
   const handleBooking = async () => {
     try {
-      const response = await axios.post('http://localhost:5000/api/booked');
+      const response = await axios.post('https://travel-package-fbk7.onrender.com/api/booked');
 
       if (response.status === 200) {
         console.log('Booking logged successfully!');

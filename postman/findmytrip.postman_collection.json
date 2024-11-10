@@ -1,0 +1,138 @@
+{
+    "info": {
+      "name": "FindMyTrip API Collection",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Get All Packages",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:5000/api/packages",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "5000",
+            "path": ["api", "packages"]
+          }
+        }
+      },
+      {
+        "name": "Add New Package: Hawaii",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "url": {
+            "raw": "http://localhost:5000/api/packages",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "5000",
+            "path": ["api", "packages"]
+          },
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"name\": \"Beach Escape\",\n  \"location\": \"Hawaii\",\n  \"price\": 700,\n  \"description\": \"A relaxing beach holiday in Hawaii.\"\n}"
+          }
+        }
+      },
+      {
+        "name": "Add New Package: Switzerland",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "url": {
+            "raw": "http://localhost:5000/api/packages",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "5000",
+            "path": ["api", "packages"]
+          },
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"name\": \"Mountain Adventure\",\n  \"location\": \"Switzerland\",\n  \"price\": 900,\n  \"description\": \"A relaxing mountain holiday in Switzerland.\"\n}"
+          }
+        }
+      },
+      {
+        "name": "Add New Package: Maldives",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "url": {
+            "raw": "http://localhost:5000/api/packages",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "5000",
+            "path": ["api", "packages"]
+          },
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"name\": \"Beach Paradise\",\n  \"location\": \"Maldives\",\n  \"price\": 1200,\n  \"description\": \"Enjoy the crystal-clear waters and luxury resorts.\"\n}"
+          }
+        }
+      },
+      {
+        "name": "Add New Package: Kenya",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "url": {
+            "raw": "http://localhost:5000/api/packages",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "5000",
+            "path": ["api", "packages"]
+          },
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"name\": \"Safari Expedition\",\n  \"location\": \"Kenya\",\n  \"price\": 800,\n  \"description\": \"Experience the thrill of the African safari.\"\n}"
+          }
+        }
+      },
+      {
+        "name": "Add New Package: India",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "url": {
+            "raw": "http://localhost:5000/api/packages",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "5000",
+            "path": ["api", "packages"]
+          },
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"name\": \"Cultural Journey\",\n  \"location\": \"India\",\n  \"price\": 500,\n  \"description\": \"Discover the rich cultural heritage of India.\"\n}"
+          }
+        }
+      }
+    ]
+  }
+  

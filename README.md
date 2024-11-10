@@ -55,7 +55,7 @@ git clone --single-branch --branch backend https://github.com/HarshP2109/Travel-
 Navigate to the `backend` directory:
 
 ```bash
-cd backend
+cd Travel-Package
 ```
 
 #### Install Dependencies
@@ -93,7 +93,7 @@ git clone --single-branch --branch frontend https://github.com/HarshP2109/Travel
 Navigate to the `frontend` directory:
 
 ```bash
-cd frontend
+cd Travel-Package
 ```
 
 #### Install Dependencies
